@@ -6,6 +6,7 @@
   font-family: Verdana, sans-serif;
   text-transform: capitalize;
 }
+
 body {
   min-height: 100vh;
   display: flex;
@@ -51,4 +52,30 @@ body {
   border-radius: 5px;
 }
 
+@media screen and (max-width: 768px) {
+  .profile img {
+    width: 150px;
+  }
 
+  .profile h1 {
+    font-size: 20px;
+  }
+
+  .links a {
+    padding: 8px 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .profile img {
+    width: 120px;
+  }
+
+  .profile h1 {
+    font-size: 18px;
+  }
+
+  .links a {
+    padding: 6px 12px;
+  }
+}
